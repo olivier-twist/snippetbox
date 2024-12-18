@@ -1,0 +1,16 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{template "title" .}}</title>
+    </head>
+    <body>
+        <main>
+            {{template "body" .}}
+        </main>
+        <footer> GO FOOTER </footer>
+    </body>
+</html>
+
+{{end}}
